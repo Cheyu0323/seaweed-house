@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { websiteUrl } from "../websiteUrl";
+import caselist from "../case-data.json";
 
 const Slider = () => {
     const [nowIndex, setNowIndex] = useState<number>(0);
@@ -8,7 +9,7 @@ const Slider = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setNowIndex((prevIndex) =>
-                prevIndex === images.length - 1
+                prevIndex === 6
                     ? (prevIndex = 0)
                     : prevIndex + 1
             );
@@ -17,26 +18,16 @@ const Slider = () => {
     }, []);
     
     const handleSlideClick = (index: number) => {
-        if (index === images.length) {
+        if (index === 7) {
             setNowIndex(0);
             return;
         }
         if (index < 0) {
-            setNowIndex(images.length - 1);
+            setNowIndex(7 - 1);
             return;
         }
         setNowIndex(index);
     };
-
-    const images = [
-        { id: "slider7", path: "/case/case1/01.jpg" },
-        { id: "slider1", path: "/case/case2/01.jpg" },
-        { id: "slider2", path: "/case/case3/01.jpg" },
-        { id: "slider3", path: "/case/case4/01.jpg" },
-        { id: "slider4", path: "/case/case5/01.jpg" },
-        { id: "slider5", path: "/case/case6/01.jpg" },
-        { id: "slider6", path: "/case/case7/01.jpg" },
-    ];
 
     return (
         <section className="w-full h-screen group overflow-hidden relative select-none">
@@ -57,15 +48,15 @@ const Slider = () => {
                     d="M15.75 19.5L8.25 12l7.5-7.5"
                 />
             </svg>
-            {images.map((item, index) => {
+            {caselist.map((item, index) => {
                 return (
                     <Image
                         key={item.id}
                         className={`object-cover transition-opacity ease-in-out duration-700 ${
                             index === nowIndex ? "opacity-1" : "opacity-0"
                         } `}
-                        src={`${websiteUrl}/${item.path}`}
-                        alt="實際案例照片"
+                        src={`${websiteUrl}/case/${caselist[nowIndex].id}/${caselist[nowIndex].img[0].name}`}
+                        alt={caselist[nowIndex].img[0].title}
                         fill
                     />
                 );
@@ -88,7 +79,7 @@ const Slider = () => {
                 />
             </svg>
             <div className="flex absolute bottom-2 w-full justify-center">
-                {images.map((item, index) => {
+                {caselist.slice(0, 7).map((item, index) => {
                     return (
                         <span
                             key={"dot-" + item.id}
