@@ -8,6 +8,7 @@ import ScrolltopBtn from "../../components/ScrolltopBtn";
 import caselist from "../../case-data.json";
 import filterData from "../../filterData";
 import React, { useState, useRef, useEffect, ChangeEvent } from "react";
+import { websiteUrl } from "../../websiteUrl";
 import gsap from "gsap";
 
 type CaseList = {
@@ -80,7 +81,7 @@ const SwitchItem: React.FC = () => {
             >
                 <Image
                     className="object-cover w-full h-auto"
-                    src={`/case/${caselist[nowIndex].id}/${caselist[nowIndex].img[0].name}`}
+                    src={`${websiteUrl}/case/${caselist[nowIndex].id}/${caselist[nowIndex].img[0].name}`}
                     alt={caselist[nowIndex].img[0].title}
                     width="0"
                     height="0"
@@ -190,7 +191,7 @@ const Item: React.FC<ItemProp> = ({ item }) => {
                 </button>
                 <Image
                     className="object-cover w-full h-auto duration-200 group-hover:scale-125"
-                    src={`/case/${item.id}/${item.img[0].name}`}
+                    src={`${websiteUrl}/case/${item.id}/${item.img[0].name}`}
                     alt={item.img[0].title}
                     width="0"
                     height="0"

@@ -7,6 +7,7 @@ import Footer from "../../components/Footer";
 import ScrolltopBtn from "../../components/ScrolltopBtn";
 import filterData from "../../filterData";
 import caselist from "../../case-data.json";
+import { websiteUrl } from "../../websiteUrl";
 
 type ClickProp = {
     handleClick: () => void;
@@ -129,7 +130,7 @@ const Project: React.FC = () => {
                         <Image
                             key={`${filterDataList.id}-${item.id}`}
                             className="object-cover mb-2 w-full h-auto"
-                            src={`/case/${filterDataList.id}/${item.name}`}
+                            src={`${websiteUrl}/case/${filterDataList.id}/${item.name}`}
                             alt={item.title}
                             width="0"
                             height="0"

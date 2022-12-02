@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
+import { websiteUrl } from "../websiteUrl";
 
 const Slider = () => {
     const [nowIndex, setNowIndex] = useState<number>(0);
@@ -63,7 +64,7 @@ const Slider = () => {
                         className={`object-cover transition-opacity ease-in-out duration-700 ${
                             index === nowIndex ? "opacity-1" : "opacity-0"
                         } `}
-                        src={item.path}
+                        src={`${websiteUrl}/${item.path}`}
                         alt="實際案例照片"
                         fill
                     />

@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { selectMenuState, setMenuStatus } from "../slices/menu";
 import { useDispatch, useSelector } from "react-redux";
+import { websiteUrl } from "../websiteUrl";
 
 const Nav: React.FC = () => {
 	const isMenuClick = useSelector(selectMenuState);
@@ -54,7 +55,7 @@ const Header: React.FC = () => {
             <div className="flex justify-between items-center w-full max-w-screen-xl m-auto">
                 <div className="w-20">
                     <Image
-                        src="/seawead.png"
+                        src={`${websiteUrl}/seawead.png`}
                         alt="海草家居 Logo"
                         width={115}
                         height={38}
