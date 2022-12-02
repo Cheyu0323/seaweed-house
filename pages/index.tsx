@@ -208,7 +208,7 @@ const Home: React.FC = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full">
+                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full text-primary">
                             <div className="font-bold tracking-wider md:my-1 md:text-lg">
                                 參訪及諮詢
                             </div>
@@ -237,7 +237,7 @@ const Home: React.FC = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full">
+                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full text-primary">
                             <div className="font-bold tracking-wider md:my-1 md:text-lg">
                                 實地丈量
                             </div>
@@ -265,7 +265,7 @@ const Home: React.FC = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full">
+                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full text-primary">
                             <div className="font-bold tracking-wider md:my-1 md:text-lg">
                                 設計報價
                             </div>
@@ -286,7 +286,7 @@ const Home: React.FC = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full">
+                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full text-primary">
                             <div className="font-bold tracking-wider md:my-1 md:text-lg">
                                 合約簽訂
                             </div>
@@ -314,7 +314,7 @@ const Home: React.FC = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full">
+                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full text-primary">
                             <div className="font-bold tracking-wider md:my-1 md:text-lg">
                                 工程執行
                             </div>
@@ -346,7 +346,7 @@ const Home: React.FC = () => {
                                 </svg>
                             </div>
                         </div>
-                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full">
+                        <div className="p-5 w-[calc(100%-4rem)] md:text-center md:p-4 md:w-full text-primary">
                             <div className="font-bold tracking-wider md:my-1 md:text-lg">
                                 品質保固
                             </div>
@@ -466,7 +466,7 @@ const Home: React.FC = () => {
             </section>
             <section id="contact" className="pt-10 pb-12 bg-white">
                 <Title>聯絡我們</Title>
-                <div className="m-auto max-w-md p-8">
+                <div className="m-auto max-w-md p-8 text-primary">
                     <div className="text-lg font-bold">海草家居</div>
                     <div>電話: 0000000000</div>
                     <div>地址: 110台北市信義區信義路五段7號89樓</div>

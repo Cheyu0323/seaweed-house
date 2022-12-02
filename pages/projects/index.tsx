@@ -72,7 +72,7 @@ const SwitchItem: React.FC = () => {
 
     return (
         <section
-            className="py-4 px-4 max-w-screen-xl m-auto relative md:pb-8 md:px-8 bg-white"
+            className="py-4 px-4 max-w-screen-xl m-auto relative md:pb-8 md:px-8 bg-white "
             ref={imageRef}
         >
             <div
@@ -93,10 +93,10 @@ const SwitchItem: React.FC = () => {
                     id="info"
                     className="flex flex-col items-center w-full bg-lightgary md:items-start md:pl-32 lg:pl-44 md:pr-8 md:py-5"
                 >
-                    <div className=" text-xl pt-4 font-semibold tracking-widest my-1 md:text-2xl">
+                    <div className=" text-xl pt-4 font-semibold tracking-widest my-1 md:text-2xl text-black">
                         {caselist[nowIndex].name}
                     </div>
-                    <div className="font-semibold text-base tracking-widest md:text-lg">
+                    <div className="font-semibold text-base tracking-widest md:text-lg text-primary">
                         {caselist[nowIndex].style}
                         <span className=" text-secondary mx-1">|</span>
                         {caselist[nowIndex].pattern}
@@ -107,7 +107,7 @@ const SwitchItem: React.FC = () => {
                         {caselist[nowIndex].info}
                     </div>
                     <div
-                        className=" text-base font-semibold tracking-wide mt-4 cursor-pointer mb-2 md:text-lg"
+                        className=" text-base font-semibold tracking-wide mt-4 cursor-pointer mb-2 md:text-lg text-black"
                         onClick={() => {
                             router.push(`/projects/${caselist[nowIndex].id}`);
                         }}
@@ -269,7 +269,7 @@ const Projects: React.FC = () => {
                     <div className=" relative">
                         <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none"
+                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none bg-white"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setStyle(e.target.value);
                             }}
@@ -283,7 +283,7 @@ const Projects: React.FC = () => {
                     <div className=" relative">
                         <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none"
+                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none bg-white"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setPattern(e.target.value);
                             }}
@@ -298,7 +298,7 @@ const Projects: React.FC = () => {
                     <div className=" relative">
                         <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-28 rounded appearance-none"
+                            className="mx-2 px-2 py-1 border-primary border w-28 rounded appearance-none bg-white"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setPing(e.target.value);
                             }}
