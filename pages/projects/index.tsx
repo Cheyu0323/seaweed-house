@@ -255,7 +255,7 @@ const Projects: React.FC = () => {
                 <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
             <Header />
-            <div className="pt-28 pb-4 px-8 sm:pt-16 flex flex-col items-center justify-center">
+            <div className="pt-28 pb-4 px-8 sm:pt-16 flex flex-col items-center justify-center bg-white">
                 <Title>實際案例</Title>
             </div>
             <SwitchItem />
@@ -269,7 +269,7 @@ const Projects: React.FC = () => {
                     <div className=" relative">
                         <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none bg-white"
+                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none bg-white text-primary"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setStyle(e.target.value);
                             }}
@@ -283,7 +283,7 @@ const Projects: React.FC = () => {
                     <div className=" relative">
                         <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none bg-white"
+                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none bg-white text-primary"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setPattern(e.target.value);
                             }}
@@ -298,7 +298,7 @@ const Projects: React.FC = () => {
                     <div className=" relative">
                         <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-28 rounded appearance-none bg-white"
+                            className="mx-2 px-2 py-1 border-primary border w-28 rounded appearance-none bg-white text-primary"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setPing(e.target.value);
                             }}
