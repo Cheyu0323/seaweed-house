@@ -72,7 +72,7 @@ const SwitchItem: React.FC = () => {
 
     return (
         <section
-            className="py-4 px-4 max-w-screen-xl m-auto relative md:pb-8 md:px-8"
+            className="py-4 px-4 max-w-screen-xl m-auto relative md:pb-8 md:px-8 bg-white"
             ref={imageRef}
         >
             <div
@@ -176,7 +176,7 @@ const Item: React.FC<ItemProp> = ({ item }) => {
 
     return (
         <div
-            className="flex flex-col items-center group relative"
+            className="flex flex-col items-center group relative bg-white"
             ref={itemRef}
         >
             <div className="w-full relative overflow-hidden">
@@ -259,7 +259,7 @@ const Projects: React.FC = () => {
                 <Title>實際案例</Title>
             </div>
             <SwitchItem />
-            <section className="max-w-screen-xl m-auto relative md:pb-8 md:px-4">
+            <section className="max-w-screen-xl m-auto relative md:pb-8 md:px-4  bg-white">
                 <div className="p-4 flex items-center justify-start md:justify-start flex-wrap sticky top-28 md:top-14 py-3 z-[9] bg-white w-full">
                     <div className="flex flex-col w-6 h-4 justify-between items-center">
                         <span className="w-full h-1 border border-lightgary bg-lightgary rounded-lg"></span>

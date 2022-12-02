@@ -71,7 +71,7 @@ const Project: React.FC = () => {
                 <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
             <Header />
-            <div className="relative pt-28 pb-4 px-4 sm:pt-16 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center max-w-screen-xl m-auto">
+            <div className="relative pt-28 pb-4 px-4 sm:pt-16 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center max-w-screen-xl m-auto  bg-white">
                 <Title left={true}>{filterDataList.name}</Title>
                 <div className="flex md:flex-col items-center absolute right-4 md:top-16">
                     {preID < 0 ? (
@@ -95,7 +95,7 @@ const Project: React.FC = () => {
                     )}
                 </div>
             </div>
-            <section className="pb-4 px-4 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center text-base text-primary tracking-widest md:text-lg max-w-screen-xl m-auto">
+            <section className="pb-4 px-4 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center text-base text-primary tracking-widest md:text-lg max-w-screen-xl m-auto bg-white">
                 <div className="md:w-11/12">{filterDataList.info}</div>
                 <div className="my-5 border-lightgary w-full max-w-screen-md">
                     <div className="flex flex-wrap border-y-[1px]">
@@ -124,7 +124,7 @@ const Project: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <section className="pb-4 px-4 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center text-base text-primary tracking-widest max-w-screen-xl m-auto">
+            <section className="pb-4 px-4 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center text-base text-primary tracking-widest max-w-screen-xl m-auto bg-white">
                 {filterDataList.img.map((item) => {
                     return (
                         <Image
@@ -139,7 +139,7 @@ const Project: React.FC = () => {
                     );
                 })}
             </section>
-            <section className="p-8 px-4 sm:p-4 md:p-3 lg:px-2 flex flex-row items-center justify-center text-base text-primary tracking-widest max-w-screen-xl m-auto">
+            <section className="p-8 px-4 sm:p-4 md:p-3 lg:px-2 flex flex-row items-center justify-center text-base text-primary tracking-widest max-w-screen-xl m-auto bg-white">
                 {preID < 0 ? (
                     ""
                 ) : (

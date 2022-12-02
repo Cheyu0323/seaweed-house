@@ -104,7 +104,7 @@ const Home: React.FC = () => {
             </Head>
             <Header />
             <Slider />
-            <section id="about" className="pt-10 pb-12 px-8 flex flex-col items-center justify-center">
+            <section id="about" className="pt-10 pb-12 px-8 flex flex-col items-center justify-center bg-white">
                 <Title>關於海草</Title>
                 <div className="w-20 sm:w-24 my-5">
                     <Image
@@ -123,7 +123,7 @@ const Home: React.FC = () => {
                     以「草」為重，致力於滿足顧客需求，您的滿意是我們成長的動力，務必讓您用得安心、深得你心!
                 </div>
             </section>
-            <section className="pt-10 pb-12 flex flex-col justify-center items-center">
+            <section className="pt-10 pb-12 flex flex-col justify-center items-center bg-white">
                 <Title>實際案例</Title>
                 <div className="flex">
                     <span
@@ -186,7 +186,7 @@ const Home: React.FC = () => {
                     SHOW MORE
                 </button>
             </section>
-            <section id="service" className="pt-10 pb-12 px-8">
+            <section id="service" className="pt-10 pb-12 px-8 bg-white">
                 <Title>服務流程</Title>
                 <div className="relative flex flex-col py-4 m-auto items-start sm:w-5/6 md:w-full md:flex-row max-w-screen-xl">
                     <div className="absolute top-0 left-9 border border-dashed border-secondary bg-secondary/40 h-full w-0 md:h-0 md:w-full md:top-16 md:left-0"></div>
@@ -357,7 +357,7 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <section id="building" className="pt-10 pb-12 px-8">
+            <section id="building" className="pt-10 pb-12 px-8 bg-white">
                 <Title>五星建材</Title>
                 <div className="flex flex-col-reverse m-auto sm:flex-row max-w-screen-lg">
                     <div className="relative w-full sm:w-2/3  h-auto">
@@ -464,7 +464,7 @@ const Home: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <section id="contact" className="pt-10 pb-12">
+            <section id="contact" className="pt-10 pb-12 bg-white">
                 <Title>聯絡我們</Title>
                 <div className="m-auto max-w-md p-8">
                     <div className="text-lg font-bold">海草家居</div>
