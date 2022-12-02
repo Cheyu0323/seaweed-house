@@ -5,6 +5,7 @@ const nextConfig = {
     swcMinify: true,
     images: {
         unoptimized: true,
+        path: prod ? "/seaweed-house" : "",
     },
     basePath: prod ? "/seaweed-house" : "",
     assetPrefix: prod ? "/seaweed-house" : "",
