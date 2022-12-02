@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import { websiteUrl } from "../websiteUrl";
 
 const Footer: React.FC = () => {
     return (
         <footer className="w-full h-36 bg-primary flex flex-col justify-center items-center">
             <div className="w-20">
                 <Image
-                    src="/seawead.png"
+                    src={`${websiteUrl}/seawead.png`}
                     alt="海草家居 Logo"
                     width={115}
                     height={38}

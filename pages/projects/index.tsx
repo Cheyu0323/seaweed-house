@@ -252,7 +252,7 @@ const Projects: React.FC = () => {
                     name="description"
                     content="海草家居 | 系統櫃 | 板材 | 統包"
                 />
-                <link rel="icon" href="/seawead.ico" />
+                <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
             <Header />
             <div className="pt-28 pb-4 px-8 sm:pt-16 flex flex-col items-center justify-center">

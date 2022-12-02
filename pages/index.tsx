@@ -100,7 +100,7 @@ const Home: React.FC = () => {
                     name="description"
                     content="海草家居 | 系統櫃 | 板材 | 統包"
                 />
-                <link rel="icon" href="/seawead.ico" />
+                <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
             <Header />
             <Slider />
