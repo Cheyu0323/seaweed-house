@@ -4,12 +4,10 @@ const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
     images: {
-      domains: [prod ? "/seaweed-house" : "/"], 
-      unoptimized: true,
+        unoptimized: true,
     },
-    basePath: prod ? "/seaweed-house" : "/",
-    assetPrefix: prod ? "/seaweed-house" : "/",
-    
+    basePath: prod ? "/seaweed-house" : "",
+    assetPrefix: prod ? "/seaweed-house" : "",
 };
 
 module.exports = nextConfig;
