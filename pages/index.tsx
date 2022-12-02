@@ -104,7 +104,10 @@ const Home: React.FC = () => {
             </Head>
             <Header />
             <Slider />
-            <section id="about" className="pt-10 pb-12 px-8 flex flex-col items-center justify-center bg-white">
+            <section
+                id="about"
+                className="pt-10 pb-12 px-8 flex flex-col items-center justify-center bg-white"
+            >
                 <Title>關於海草</Title>
                 <div className="w-20 sm:w-24 my-5">
                     <Image
@@ -180,9 +183,12 @@ const Home: React.FC = () => {
                         <Item key={item.id} item={item} />
                     ))}
                 </div>
-                <button className="my-5 border border-black rounded py-2 px-5 text-center text-sm duration-200 hover:border-white hover:bg-accent hover:text-white"  onClick={() => {
+                <button
+                    className="my-5 border border-black rounded py-2 px-5 text-center text-sm duration-200 hover:border-white hover:bg-accent hover:text-white text-black"
+                    onClick={() => {
                         router.push(`/projects/`);
-                    }}>
+                    }}
+                >
                     SHOW MORE
                 </button>
             </section>
