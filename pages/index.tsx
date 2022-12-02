@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import ScrolltopBtn from "../components/ScrolltopBtn";
 import caselist from "../case-data.json";
 import filterData from "../filterData";
+import { websiteUrl } from "../websiteUrl";
 import gsap from "gsap";
 import { useState, useEffect, useRef } from "react";
 
@@ -33,7 +34,6 @@ type ItemProp = {
 const Item: React.FC<ItemProp> = ({ item }) => {
     const router = useRouter();
     const itemRef = useRef<HTMLDivElement>(null);
-    const imagePath = process.env.NODE_ENV === "production" ? "/seaweed-house" : "";
     useEffect(() => {
         let ctx = gsap.context(() => {
             gsap.timeline({ ease: "power4.out" }).fromTo(
@@ -63,7 +63,7 @@ const Item: React.FC<ItemProp> = ({ item }) => {
             </div>
             <Image
                 className="object-cover scale-110 duration-200 group-hover:scale-125 w-full h-auto"
-                src={`${imagePath}/case/${item.id}/${item.img[0].name}`}
+                src={`${websiteUrl}/case/${item.id}/${item.img[0].name}`}
                 alt={item.img[0].title}
                 width="0"
                 height="0"
@@ -87,7 +87,6 @@ const Home: React.FC = () => {
     useEffect(() => {
         setFilterCaseData(filterData({ style: projectState }));
     }, [projectState]);
-    const imagePath = process.env.NODE_ENV === "production" ? "/seaweed-house" : "";
 
     const handleChangeProjectState = (type: string) => {
         setProjectState(type);
@@ -109,7 +108,7 @@ const Home: React.FC = () => {
                 <Title>關於海草</Title>
                 <div className="w-20 sm:w-24 my-5">
                     <Image
-                        src={`${imagePath}/seawead.png`}
+                        src={`${websiteUrl}/seawead.png`}
                         alt="海草家居 Logo"
                         width={154}
                         height={51}
@@ -364,7 +363,7 @@ const Home: React.FC = () => {
                     <div className="relative w-full sm:w-2/3  h-auto">
                         <Image
                             className="object-cover w-11/12 h-auto"
-                            src={`${imagePath}/case/case11/01.jpg`}
+                            src={`${websiteUrl}/case/case11/01.jpg`}
                             alt="實際案例照片"
                             width="0"
                             height="0"
