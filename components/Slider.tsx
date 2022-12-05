@@ -47,7 +47,6 @@ const Slider = () => {
                 />
             </svg>
             {caselist.map((item, index) => {
-                console.log(item.img[0].blurURL)
                 return (
                     <Image
                         key={item.id}

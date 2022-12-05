@@ -58,8 +58,6 @@ const Project: React.FC = () => {
     const filterDataList = filterData({ id })[0];
     const nextID = caselist.findIndex((item) => item.id === id) + 1;
     const preID = caselist.findIndex((item) => item.id === id) - 1;
-    console.log(preID);
-
     return (
         <div>
             <Head>
