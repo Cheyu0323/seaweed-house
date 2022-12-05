@@ -5,18 +5,16 @@ import caselist from "../case-data.json";
 
 const Slider = () => {
     const [nowIndex, setNowIndex] = useState<number>(0);
-    
+
     useEffect(() => {
         const intervalId = setInterval(() => {
             setNowIndex((prevIndex) =>
-                prevIndex === 6
-                    ? (prevIndex = 0)
-                    : prevIndex + 1
+                prevIndex === 6 ? (prevIndex = 0) : prevIndex + 1
             );
         }, 8000);
         return () => clearInterval(intervalId);
     }, []);
-    
+
     const handleSlideClick = (index: number) => {
         if (index === 7) {
             setNowIndex(0);
@@ -49,14 +47,17 @@ const Slider = () => {
                 />
             </svg>
             {caselist.map((item, index) => {
+                console.log(item.img[0].blurURL)
                 return (
                     <Image
                         key={item.id}
                         className={`object-cover transition-opacity ease-in-out duration-700 ${
                             index === nowIndex ? "opacity-1" : "opacity-0"
                         } `}
-                        src={`${websiteUrl}/case/${caselist[nowIndex].id}/${caselist[nowIndex].img[0].name}`}
-                        alt={caselist[nowIndex].img[0].title}
+                        src={`${websiteUrl}/case/${item.id}/${item.img[0].name}`}
+                        alt={item.img[0].title}
+                        placeholder="blur"
+                        blurDataURL={`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAC1JREFUWEft0EERAAAAAUH6lxbDZxU4s815PffjAAECBAgQIECAAAECBAgQIDAaPwAh6O5R/QAAAABJRU5ErkJggg==`}
                         fill
                     />
                 );

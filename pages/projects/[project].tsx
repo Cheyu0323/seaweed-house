@@ -135,6 +135,8 @@ const Project: React.FC = () => {
                             width="0"
                             height="0"
                             sizes="100vw"
+                            placeholder="blur"
+                            blurDataURL={`${item.blurURL}`}
                         />
                     );
                 })}

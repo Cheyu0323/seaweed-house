@@ -12,6 +12,7 @@ type CaseList = {
         id: number;
         title: string;
         name: string;
+        blurURL: string;
     }>;
 };
 

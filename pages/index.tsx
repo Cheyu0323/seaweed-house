@@ -24,6 +24,7 @@ type CaseList = {
         id: number;
         title: string;
         name: string;
+        blurURL: string;
     }>;
 };
 
@@ -68,6 +69,8 @@ const Item: React.FC<ItemProp> = ({ item }) => {
                 width="0"
                 height="0"
                 sizes="100vw"
+                placeholder="blur"
+                blurDataURL={`${item.img[0].blurURL}`}
             />
         </div>
     );

@@ -23,6 +23,7 @@ type CaseList = {
         id: number;
         title: string;
         name: string;
+        blurURL: string;
     }>;
 };
 
@@ -86,6 +87,8 @@ const SwitchItem: React.FC = () => {
                     width="0"
                     height="0"
                     sizes="100vw"
+                    placeholder="blur"
+                    blurDataURL={`${caselist[nowIndex].img[0].blurURL}`}
                 />
             </div>
             <div className="flex flex-col items-center md:absolute md:right-8 md:top-[22%] lg:top-[43%] md:items-start md:w-5/12 md:z-10">
@@ -196,6 +199,8 @@ const Item: React.FC<ItemProp> = ({ item }) => {
                     width="0"
                     height="0"
                     sizes="100vw"
+                    placeholder="blur"
+                    blurDataURL={`${item.img[0].blurURL}`}
                 />
             </div>
             <div className=" text-lg font-semibold text-primary tracking-widest my-1 duration-200 group-hover:text-accent">
