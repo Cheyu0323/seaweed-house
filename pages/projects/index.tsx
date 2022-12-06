@@ -265,7 +265,7 @@ const Projects: React.FC = () => {
             </div>
             <SwitchItem />
             <section className="max-w-screen-xl m-auto relative md:pb-8 md:px-4  bg-white">
-                <div className="p-4 flex items-center justify-start md:justify-start flex-wrap sticky top-28 md:top-14 py-3 z-[9] bg-white w-full">
+                <div className="p-4 flex items-center justify-start flex-wrap sticky top-28 sm:top-14 py-3 z-[9] bg-white w-full">
                     <div className="flex flex-col w-6 h-4 justify-between items-center">
                         <span className="w-full h-1 border border-lightgary bg-lightgary rounded-lg"></span>
                         <span className="w-10/12 h-1 border border-lightgary bg-lightgary rounded-lg"></span>
