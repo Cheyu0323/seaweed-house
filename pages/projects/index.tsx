@@ -279,7 +279,7 @@ const Projects: React.FC = () => {
                                 setStyle(e.target.value);
                             }}
                         >
-                            <option value="default">風格</option>
+                            <option value="">風格</option>
                             <option value="北歐風">北歐風</option>
                             <option value="無印風">無印風</option>
                             <option value="工業風">工業風</option>
@@ -293,7 +293,7 @@ const Projects: React.FC = () => {
                                 setPattern(e.target.value);
                             }}
                         >
-                            <option value="default">格局</option>
+                            <option value="">格局</option>
                             <option value="1房">1房</option>
                             <option value="2房">2房</option>
                             <option value="3房">3房</option>
@@ -308,7 +308,7 @@ const Projects: React.FC = () => {
                                 setPing(e.target.value);
                             }}
                         >
-                            <option value="default">坪數</option>
+                            <option value="">坪數</option>
                             <option value="20坪以下">20坪以下</option>
                             <option value="20-30坪">20-30坪</option>
                             <option value="30-40坪">30-40坪</option>
