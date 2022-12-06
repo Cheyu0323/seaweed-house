@@ -402,8 +402,10 @@ const Home: React.FC = () => {
                                     </svg>
                                 </div>
                                 <div className="relative text-primary tracking-wider my-1 font-medium cursor-default md:text-lg">
-                                    精選板材
-                                    <span className="absolute bottom-0 right-[-3px] z-[-1] bg-accent rounded-full w-3 h-3 duration-200 opacity-0 group-hover:opacity-100"></span>
+                                    <span className="relative z-10">
+                                        精選板材
+                                    </span>
+                                    <span className="absolute z-[9] bottom-0 right-[-3px] bg-accent rounded-full w-3 h-3 duration-200 opacity-0 group-hover:opacity-100"></span>
                                 </div>
                             </div>
                         </div>
@@ -420,8 +422,10 @@ const Home: React.FC = () => {
                                     </svg>
                                 </div>
                                 <div className="relative text-primary tracking-wider my-1 font-medium cursor-default md:text-lg">
-                                    名牌五金
-                                    <span className="absolute bottom-0 right-[-3px] z-[-1] bg-accent rounded-full w-3 h-3 duration-200 opacity-0 group-hover:opacity-100"></span>
+                                    <span className="relative z-10">
+                                        名牌五金
+                                    </span>
+                                    <span className="absolute z-[9] bottom-0 right-[-3px] bg-accent rounded-full w-3 h-3 duration-200 opacity-0 group-hover:opacity-100"></span>
                                 </div>
                             </div>
                         </div>
@@ -437,8 +441,10 @@ const Home: React.FC = () => {
                                     </svg>
                                 </div>
                                 <div className="relative text-primary tracking-wider my-1 font-medium cursor-default md:text-lg">
-                                    安全認證
-                                    <span className="absolute bottom-0 right-[-3px] z-[-1] bg-accent rounded-full w-3 h-3 duration-200 opacity-0 group-hover:opacity-100"></span>
+                                    <span className="relative z-10">
+                                        安全認證
+                                    </span>
+                                    <span className="absolute z-[9] bottom-0 right-[-3px] bg-accent rounded-full w-3 h-3 duration-200 opacity-0 group-hover:opacity-100"></span>
                                 </div>
                             </div>
                         </div>
@@ -465,8 +471,10 @@ const Home: React.FC = () => {
                                     </svg>
                                 </div>
                                 <div className="relative text-primary tracking-wider my-1 font-medium cursor-default md:text-lg">
-                                    完整保固
-                                    <span className="absolute bottom-0 right-[-3px] z-[-1] bg-accent rounded-full w-3 h-3 duration-200 opacity-0 group-hover:opacity-100"></span>
+                                    <span className="relative z-10">
+                                        完整保固
+                                    </span>
+                                    <span className="absolute z-[9] bottom-0 right-[-3px] bg-accent rounded-full w-3 h-3 duration-200 opacity-0 group-hover:opacity-100"></span>
                                 </div>
                             </div>
                         </div>
