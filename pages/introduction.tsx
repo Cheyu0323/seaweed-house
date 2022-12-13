@@ -207,7 +207,7 @@ const Introduction: React.FC = () => {
     }, [floor_series]);
 
     return (
-        <div>
+        <div className="bg-white">
             <Head>
                 <title>海草家居</title>
                 <meta
