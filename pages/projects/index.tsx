@@ -296,7 +296,7 @@ const Projects: React.FC = () => {
                     <div className=" relative">
                         <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[13px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-1 px-1 py-1 border-primary border w-28 rounded appearance-none bg-white text-primary"
+                            className="mx-1 px-1 py-1 border-primary border w-24 rounded appearance-none bg-white text-primary"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setPing(e.target.value);
                             }}
