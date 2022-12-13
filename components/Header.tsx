@@ -23,7 +23,7 @@ const Nav: React.FC = () => {
                     <Link href="/#service" scroll={false}>服務流程</Link>
                 </li>
                 <li className="m-2 tracking-widest text-sm sm:text-base sm:font-semibold duration-200 hover:text-accent">
-                    <Link href="/#building" scroll={false}>五星建材</Link>
+                    <Link href="/introduction" scroll={false}>五星建材</Link>
                 </li>
                 <li className="m-2 tracking-widest text-sm sm:text-base sm:font-semibold duration-200 hover:text-accent">
                     <Link href="/#contact" scroll={false}>聯絡我們</Link>
