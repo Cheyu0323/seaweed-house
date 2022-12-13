@@ -1,12 +1,9 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../components/Header";
 import Slider from "../components/Slider";
 import Title from "../components/Title";
-import Footer from "../components/Footer";
-import ScrolltopBtn from "../components/ScrolltopBtn";
-import caselist from "../case-data.json";
+import caselist from "../data/case.json";
 import filterData from "../filterData";
 import { websiteUrl } from "../websiteUrl";
 import gsap from "gsap";
@@ -105,7 +102,6 @@ const Home: React.FC = () => {
                 />
                 <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
-            <Header />
             <Slider />
             <section
                 id="about"
@@ -378,7 +374,7 @@ const Home: React.FC = () => {
                             height="0"
                             sizes="100vw"
                         />
-                        <button className="absolute bottom-2 right-0 bg-accent font-thin tracking-wider px-5 py-3 text-white text-sm sm:text-base duration-200 hover:text-black">
+                        <button className="absolute bottom-2 right-0 bg-accent font-thin tracking-wider px-5 py-3 text-white text-sm sm:text-base duration-200 hover:text-black" onClick={() => {router.push(`/introduction/`)}}>
                             READ MORE
                         </button>
                     </div>
@@ -496,8 +492,6 @@ const Home: React.FC = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
             </section>
-            <Footer />
-            <ScrolltopBtn />
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { websiteUrl } from "../websiteUrl";
-import caselist from "../case-data.json";
+import caselist from "../data/case.json";
 
 const Slider = () => {
     const [nowIndex, setNowIndex] = useState<number>(0);

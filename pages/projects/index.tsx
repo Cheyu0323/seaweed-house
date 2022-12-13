@@ -1,15 +1,13 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../../components/Header";
 import Title from "../../components/Title";
-import Footer from "../../components/Footer";
-import ScrolltopBtn from "../../components/ScrolltopBtn";
-import caselist from "../../case-data.json";
+import caselist from "../../data/case.json";
 import filterData from "../../filterData";
 import React, { useState, useRef, useEffect, ChangeEvent } from "react";
 import { websiteUrl } from "../../websiteUrl";
 import gsap from "gsap";
+import FliterIcon from "../../components/FliterIcon";
 
 type CaseList = {
     id: string;
@@ -259,22 +257,17 @@ const Projects: React.FC = () => {
                 />
                 <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
-            <Header />
             <div className="pt-28 pb-4 px-8 sm:pt-16 flex flex-col items-center justify-center bg-white">
                 <Title>實際案例</Title>
             </div>
             <SwitchItem />
             <section className="max-w-screen-xl m-auto relative md:pb-8 md:px-4  bg-white">
                 <div className="p-4 flex items-center justify-start flex-wrap sticky top-28 sm:top-14 py-3 z-[9] bg-white w-full">
-                    <div className="flex flex-col w-6 h-4 justify-between items-center">
-                        <span className="w-full h-1 border border-lightgary bg-lightgary rounded-lg"></span>
-                        <span className="w-10/12 h-1 border border-lightgary bg-lightgary rounded-lg"></span>
-                        <span className="w-6/12 h-1 border border-lightgary bg-lightgary rounded-lg"></span>
-                    </div>
+                    <FliterIcon />
                     <div className=" relative">
-                        <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
+                        <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[13px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none bg-white text-primary"
+                            className="mx-1 px-1 py-1 border-primary border w-24 rounded appearance-none bg-white text-primary"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setStyle(e.target.value);
                             }}
@@ -286,9 +279,9 @@ const Projects: React.FC = () => {
                         </select>
                     </div>
                     <div className=" relative">
-                        <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
+                        <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[13px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-24 rounded appearance-none bg-white text-primary"
+                            className="mx-1 px-1 py-1 border-primary border w-24 rounded appearance-none bg-white text-primary"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setPattern(e.target.value);
                             }}
@@ -301,9 +294,9 @@ const Projects: React.FC = () => {
                         </select>
                     </div>
                     <div className=" relative">
-                        <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[20px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
+                        <div className=" absolute pointer-events-none z-20 w-0 h-0 right-[13px] top-3 border-t-[11px] border-x-[8px] border-b-0 border-t-accent border-x-transparent border-b-transparent "></div>
                         <select
-                            className="mx-2 px-2 py-1 border-primary border w-28 rounded appearance-none bg-white text-primary"
+                            className="mx-1 px-1 py-1 border-primary border w-28 rounded appearance-none bg-white text-primary"
                             onChange={(e: ChangeEvent<HTMLSelectElement>) => {
                                 setPing(e.target.value);
                             }}
@@ -332,8 +325,6 @@ const Projects: React.FC = () => {
 
                 <div className="flex justify-center p-2">{output}</div>
             </section>
-            <Footer />
-            <ScrolltopBtn />
         </div>
     );
 };

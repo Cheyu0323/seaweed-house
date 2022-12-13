@@ -1,12 +1,9 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../../components/Header";
 import Title from "../../components/Title";
-import Footer from "../../components/Footer";
-import ScrolltopBtn from "../../components/ScrolltopBtn";
 import filterData from "../../filterData";
-import caselist from "../../case-data.json";
+import caselist from "../../data/case.json";
 import { websiteUrl } from "../../websiteUrl";
 
 type ClickProp = {
@@ -68,7 +65,6 @@ const Project: React.FC = () => {
                 />
                 <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
-            <Header />
             <div className="relative pt-28 pb-4 px-4 sm:pt-16 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center max-w-screen-xl m-auto  bg-white">
                 <Title left={true}>{filterDataList.name}</Title>
                 <div className="flex md:flex-col items-center absolute right-4 md:top-16">
@@ -160,8 +156,6 @@ const Project: React.FC = () => {
                     />
                 )}
             </section>
-            <Footer />
-            <ScrolltopBtn />
         </div>
     );
 };

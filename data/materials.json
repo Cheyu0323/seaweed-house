@@ -1,0 +1,1775 @@
+[
+    {
+        "id": "H1145ST10",
+        "serial": "H1145-ST10",
+        "name": "自然巴多利諾橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H1145ST10.jpg"
+    },
+    {
+        "id": "H1146ST10",
+        "serial": "H1146-ST10",
+        "name": "巴多利諾灰橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H1146ST10.jpg"
+    },
+    {
+        "id": "H1273ST22",
+        "serial": "H1273-ST22",
+        "name": "淺灰梣木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H1273ST22.jpg"
+    },
+    {
+        "id": "H1277ST12",
+        "serial": "H1277-ST12",
+        "name": "淺色萊克蘭刺槐",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H1277ST12.jpg"
+    },
+    {
+        "id": "H1300ST19",
+        "serial": "H1300-ST19",
+        "name": "瓦爾米亞自然橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H1300ST19.jpg"
+    },
+    {
+        "id": "H1401ST22",
+        "serial": "H1401-ST22",
+        "name": "卡希納松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H1401ST22.jpg"
+    },
+    {
+        "id": "H1710ST12",
+        "serial": "H1710-ST12",
+        "name": "肯塔基沙粉板栗木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H1710ST12.jpg"
+    },
+    {
+        "id": "H3047ST10",
+        "serial": "H3047-ST10",
+        "name": "婆羅洲松露棕木紋",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3047ST10.jpg"
+    },
+    {
+        "id": "H3060ST22",
+        "serial": "H3060-ST22",
+        "name": "白色北歐木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3060ST22.jpg"
+    },
+    {
+        "id": "H3078ST22",
+        "serial": "H3078-ST22",
+        "name": "珍珠白梣木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3078ST22.jpg"
+    },
+    {
+        "id": "H3081ST22",
+        "serial": "H3081-ST22",
+        "name": "碳黑梣木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3081ST22.jpg"
+    },
+    {
+        "id": "H3090ST22",
+        "serial": "H3090-ST22",
+        "name": "漂流木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3090ST22.jpg"
+    },
+    {
+        "id": "H3131ST12",
+        "serial": "H3131-ST12",
+        "name": "自然達沃斯橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3131ST12.jpg"
+    },
+    {
+        "id": "H3157ST19",
+        "serial": "H3157-ST19",
+        "name": "維爾察橡木消光",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3157ST19.jpg"
+    },
+    {
+        "id": "H3332ST10",
+        "serial": "H3332-ST10",
+        "name": "古典灰橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3332ST10.jpg"
+    },
+    {
+        "id": "H3415ST19",
+        "serial": "H3415-ST19",
+        "name": "船屋淺松",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3415ST19.jpg"
+    },
+    {
+        "id": "H3430ST22",
+        "serial": "H3430-ST22",
+        "name": "米白奧蘭松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3430ST22.jpg"
+    },
+    {
+        "id": "H3433ST22",
+        "serial": "H3433-ST22",
+        "name": "冰白奧蘭松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3433ST22.jpg"
+    },
+    {
+        "id": "H3450ST22",
+        "serial": "H3450-ST22",
+        "name": "白弗利特木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3450ST22.jpg"
+    },
+    {
+        "id": "H3700ST10",
+        "serial": "H3700-ST10",
+        "name": "鄉村胡桃木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3700ST10.jpg"
+    },
+    {
+        "id": "H3702ST10",
+        "serial": "H3702-ST10",
+        "name": "菸草幾內亞胡桃木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3702ST10.jpg"
+    },
+    {
+        "id": "H3730ST10",
+        "serial": "H3730-ST10",
+        "name": "自然山核桃",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3730ST10.jpg"
+    },
+    {
+        "id": "H3732ST10",
+        "serial": "H3732-ST10",
+        "name": "棕色山核桃",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/H3732ST10.jpg"
+    },
+    {
+        "id": "W952ST9",
+        "serial": "W952-ST9",
+        "name": "優質白",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/W952ST9.jpg"
+    },
+    {
+        "id": "W1000ST19",
+        "serial": "W1000-ST19",
+        "name": "至尊白消光",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/W1000ST19.jpg"
+    },
+    {
+        "id": "W1000ST22",
+        "serial": "W1000-ST22",
+        "name": "木紋白",
+        "type": "board",
+        "brand": "Egger",
+        "series": "木紋系列",
+        "img": "wood/W1000ST22.jpg"
+    },
+    {
+        "id": "F186ST9",
+        "serial": "F186-ST9",
+        "name": "淺灰芝加哥水泥",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/F186ST9.jpg"
+    },
+    {
+        "id": "F433ST10",
+        "serial": "F433-ST10",
+        "name": "亞麻灰黑色",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/F433ST10.jpg"
+    },
+    {
+        "id": "F637ST16",
+        "serial": "F637-ST16",
+        "name": "水洗清水模",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/F637ST16.jpg"
+    },
+    {
+        "id": "F642ST16",
+        "serial": "F642-ST16",
+        "name": "銅鏽清水模",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/F642ST16.jpg"
+    },
+    {
+        "id": "F649ST16",
+        "serial": "F649-ST16",
+        "name": "白色硅藻土",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/F649ST16.jpg"
+    },
+    {
+        "id": "U363ST9",
+        "serial": "U363-ST9",
+        "name": "火烈鳥粉",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U363ST9.jpg"
+    },
+    {
+        "id": "U400ST9",
+        "serial": "U400-ST9",
+        "name": "粉紫羅蘭色",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U400ST9.jpg"
+    },
+    {
+        "id": "U500ST9",
+        "serial": "U500-ST9",
+        "name": "冰川藍",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U500ST9.jpg"
+    },
+    {
+        "id": "U702ST9",
+        "serial": "U702-ST9",
+        "name": "米灰色羊絨",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U702ST9.jpg"
+    },
+    {
+        "id": "U702ST19",
+        "serial": "U702-ST19",
+        "name": "米灰色羊絨消光",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U702ST19.jpg"
+    },
+    {
+        "id": "U727ST9",
+        "serial": "U727-ST9",
+        "name": "石頭灰",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U727ST9.jpg"
+    },
+    {
+        "id": "U727ST19",
+        "serial": "U727-ST19",
+        "name": "石頭灰消光",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U727ST19.jpg"
+    },
+    {
+        "id": "U741ST9",
+        "serial": "U741-ST9",
+        "name": "熔岩色",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U741ST9.jpg"
+    },
+    {
+        "id": "U899ST9",
+        "serial": "U899-ST9",
+        "name": "宇宙黑灰",
+        "type": "board",
+        "brand": "Egger",
+        "series": "粉色系列",
+        "img": "pink/U899ST9.jpg"
+    },
+    {
+        "id": "F311ST87",
+        "serial": "F311-ST87",
+        "name": "碳黑陶瓷色",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/F311ST87.jpg"
+    },
+    {
+        "id": "F462ST20",
+        "serial": "F462-ST20",
+        "name": "靛藍金屬紋",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/F462ST20.jpg"
+    },
+    {
+        "id": "F463ST20",
+        "serial": "F463-ST20",
+        "name": "灰鉑金屬紋",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/F463ST20.jpg"
+    },
+    {
+        "id": "F500ST20",
+        "serial": "F500-ST20",
+        "name": "不鏽鋼金屬紋",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/F500ST20.jpg"
+    },
+    {
+        "id": "F784ST20",
+        "serial": "F784-ST20",
+        "name": "黃銅金屬絲紋",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/F784ST20.jpg"
+    },
+    {
+        "id": "H1176ST37",
+        "serial": "H1176-ST37",
+        "name": "哈利法克斯白橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H1176ST37.jpg"
+    },
+    {
+        "id": "H1181ST37",
+        "serial": "H1181-ST37",
+        "name": "哈利法克斯菸草橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H1181ST37.jpg"
+    },
+    {
+        "id": "H1210ST33",
+        "serial": "H1210-ST33",
+        "name": "灰色托西尼榆木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H1210ST33.jpg"
+    },
+    {
+        "id": "H1212ST33",
+        "serial": "H1212-ST33",
+        "name": "棕色托西尼榆木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H1212ST33.jpg"
+    },
+    {
+        "id": "H1336ST37",
+        "serial": "H1336-ST37",
+        "name": "仿實哈利法克斯沙灰橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H1336ST37.jpg"
+    },
+    {
+        "id": "H1340ST32",
+        "serial": "H1340-ST32",
+        "name": "榭爾曼自然橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H1340ST32.jpg"
+    },
+    {
+        "id": "H1345ST32",
+        "serial": "H1345-ST32",
+        "name": "榭爾曼灰橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H1345ST32.jpg"
+    },
+    {
+        "id": "H1346ST32",
+        "serial": "H1346-ST32",
+        "name": "榭爾曼碳黑橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H1346ST32.jpg"
+    },
+    {
+        "id": "H3154ST36",
+        "serial": "H3154-ST36",
+        "name": "剛刷紋深棕色查爾斯頓橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H3154ST36.jpg"
+    },
+    {
+        "id": "H3309ST28",
+        "serial": "H3309-ST28",
+        "name": "仿實格萊斯頓沙黃橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H3309ST28.jpg"
+    },
+    {
+        "id": "H3339ST28",
+        "serial": "H3339-ST28",
+        "name": "仿實洛夫特白橡木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H3339ST28.jpg"
+    },
+    {
+        "id": "H3403ST38",
+        "serial": "H3403-ST38",
+        "name": "山地白松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H3403ST38.jpg"
+    },
+    {
+        "id": "H3406ST38",
+        "serial": "H3406-ST38",
+        "name": "山地黑松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H3406ST38.jpg"
+    },
+    {
+        "id": "H3407ST38",
+        "serial": "H3407-ST38",
+        "name": "極地白松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/H3407ST38.jpg"
+    },
+    {
+        "id": "U999ST38",
+        "serial": "U999-ST38",
+        "name": "曜黑松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/U999ST38.jpg"
+    },
+    {
+        "id": "W1000ST28",
+        "serial": "W1000-ST28",
+        "name": "仿實白松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/W1000ST28.jpg"
+    },
+    {
+        "id": "W1000ST38",
+        "serial": "W1000-ST38",
+        "name": "至尊白松木",
+        "type": "board",
+        "brand": "Egger",
+        "series": "深壓紋系列",
+        "img": "deep/W1000ST38.jpg"
+    },
+    {
+        "id": "ARESB073M83",
+        "serial": "ARES-B073-M83",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "ARES-B073-M83.jpg"
+    },
+    {
+        "id": "ARESFB03M83",
+        "serial": "ARES-FB03-M83",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "ARES-FB03-M83.jpg"
+    },
+    {
+        "id": "ARESFB08M83",
+        "serial": "ARES-FB08-M83",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "ARES-FB08-M83.jpg"
+    },
+    {
+        "id": "ARESFB11M83",
+        "serial": "ARES-FB11-M83",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "ARES-FB11-M83.jpg"
+    },
+    {
+        "id": "ARESFB67M83",
+        "serial": "ARES-FB67-M83",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "ARES-FB67-M83.jpg"
+    },
+    {
+        "id": "IDEAFB86M85",
+        "serial": "IDEA-FB86-M85",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "IDEA-FB86-M85.jpg"
+    },
+    {
+        "id": "NADIRLN00B2",
+        "serial": "NADIR-LN00-B2",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "NADIR-LN00-B2.jpg"
+    },
+    {
+        "id": "NADIRLN01B2",
+        "serial": "NADIR-LN01-B2",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "NADIR-LN01-B2.jpg"
+    },
+    {
+        "id": "NADIRLN02B2",
+        "serial": "NADIR-LN02-B2",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "NADIR-LN02-B2.jpg"
+    },
+    {
+        "id": "NADIRLN04B2",
+        "serial": "NADIR-LN04-B2",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "NADIR-LN04-B2.jpg"
+    },
+    {
+        "id": "PRIMOFIOREUA94B5",
+        "serial": "PRIMO-FIORE-UA94-B5",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "PRIMO-FIORE-UA94-B5.jpg"
+    },
+    {
+        "id": "SMARTFA42A6",
+        "serial": "SMART-FA42-A6",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "SMART-FA42-A6.jpg"
+    },
+    {
+        "id": "SMARTFA44A6",
+        "serial": "SMART-FA44-A6",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "SMART-FA44-A6.jpg"
+    },
+    {
+        "id": "SMARTFA47A6",
+        "serial": "SMART-FA47-A6",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "SMART-FA47-A6.jpg"
+    },
+    {
+        "id": "SMARTFA48A6",
+        "serial": "SMART-FA48-A6",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "SMART-FA48-A6.jpg"
+    },
+    {
+        "id": "SMARTUA97A6",
+        "serial": "SMART-UA97-A6",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "SMART-UA97-A6.jpg"
+    },
+    {
+        "id": "SPIGATOFA90B1",
+        "serial": "SPIGATO-FA90-B1",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "SPIGATO-FA90-B1.jpg"
+    },
+    {
+        "id": "SPIGATOFA92B1",
+        "serial": "SPIGATO-FA92-B1",
+        "name": "",
+        "type": "board",
+        "brand": "Cleaf",
+        "series": "",
+        "img": "SPIGATO-FA92-B1.jpg"
+    },
+    {
+        "id": "I1931ST36",
+        "serial": "I1931-ST36",
+        "name": "白梧桐木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/I1931-ST36.jpg"
+    },
+    {
+        "id": "I3361ST12",
+        "serial": "I3361-ST12",
+        "name": "古典灰胡桃",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/I3361-ST12.jpg"
+    },
+    {
+        "id": "I3363ST12",
+        "serial": "I3363-ST12",
+        "name": "松露棕胡桃",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/I3363-ST12.jpg"
+    },
+    {
+        "id": "I3364ST12",
+        "serial": "I3364-ST12",
+        "name": "天然胡桃",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/I3364-ST12.jpg"
+    },
+    {
+        "id": "L3371ST12",
+        "serial": "L3371-ST12",
+        "name": "白色安麗格水波",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/L3371-ST12.jpg"
+    },
+    {
+        "id": "L3372ST12",
+        "serial": "L3372-ST12",
+        "name": "曼特寧安麗格水波",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/L3372-ST12.jpg"
+    },
+    {
+        "id": "L3373ST12",
+        "serial": "L3373-ST12",
+        "name": "黃金柚木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/L3373-ST12.jpg"
+    },
+    {
+        "id": "L3374ST12",
+        "serial": "L3374-ST12",
+        "name": "洗白柚木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/L3374-ST12.jpg"
+    },
+    {
+        "id": "S0105ST36",
+        "serial": "S0105-ST36",
+        "name": "勒芒松",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S0105-ST36.jpg"
+    },
+    {
+        "id": "S0106ST36",
+        "serial": "S0106-ST36",
+        "name": "峻嶺松",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S0106-ST36.jpg"
+    },
+    {
+        "id": "S0107ST36",
+        "serial": "S0107-ST36",
+        "name": "生態松",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S0107-ST36.jpg"
+    },
+    {
+        "id": "S0501ST36",
+        "serial": "S0501-ST36",
+        "name": "天然赤楊木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S0501-ST36.jpg"
+    },
+    {
+        "id": "S0504ST36",
+        "serial": "S0504-ST36",
+        "name": "灰色赤楊木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S0504-ST36.jpg"
+    },
+    {
+        "id": "S0506ST36",
+        "serial": "S0506-ST36",
+        "name": "白赤楊木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S0506-ST36.jpg"
+    },
+    {
+        "id": "S1022ST36",
+        "serial": "S1022-ST36",
+        "name": "峽谷橡木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S1022-ST36.jpg"
+    },
+    {
+        "id": "S1023ST36",
+        "serial": "S1023-ST36",
+        "name": "白橡木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S1023-ST36.jpg"
+    },
+    {
+        "id": "S1023ST36",
+        "serial": "S1025-ST36",
+        "name": "天然橡木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S1023-ST36.jpg"
+    },
+    {
+        "id": "S1102ST36",
+        "serial": "S1102-ST36",
+        "name": "金色白蠟樹",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S1102-ST36.jpg"
+    },
+    {
+        "id": "S1202ST36",
+        "serial": "S1202-ST36",
+        "name": "摩卡榆木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S1202-ST36.jpg"
+    },
+    {
+        "id": "S1206ST36",
+        "serial": "S1206-ST36",
+        "name": "白榆木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S1206-ST36.jpg"
+    },
+    {
+        "id": "S1406ST12",
+        "serial": "S1406-ST12",
+        "name": "天然櫸木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S1406-ST12.jpg"
+    },
+    {
+        "id": "S1407ST12",
+        "serial": "S1407-ST12",
+        "name": "拿鐵櫸木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S1407-ST12.jpg"
+    },
+    {
+        "id": "S2601ST36",
+        "serial": "S2601-ST36",
+        "name": "冰淇淋彩木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S2601-ST36.jpg"
+    },
+    {
+        "id": "S2604ST36",
+        "serial": "S2604-ST36",
+        "name": "冰淇淋風化木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S2604-ST36.jpg"
+    },
+    {
+        "id": "S3298ST12",
+        "serial": "S3298-ST12",
+        "name": "洗白橡木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S3298-ST12.jpg"
+    },
+    {
+        "id": "S3299ST12",
+        "serial": "S3299-ST12",
+        "name": "黃金橡木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S3299-ST12.jpg"
+    },
+    {
+        "id": "S3300ST12",
+        "serial": "S3300-ST12",
+        "name": "古核桃木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S3300-ST12.jpg"
+    },
+    {
+        "id": "S3301ST12",
+        "serial": "S3301-ST12",
+        "name": "摩卡核桃木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S3301-ST12.jpg"
+    },
+    {
+        "id": "S3302ST12",
+        "serial": "S3302-ST12",
+        "name": "風化核桃木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S3302-ST12.jpg"
+    },
+    {
+        "id": "S3303ST12",
+        "serial": "S3303-ST12",
+        "name": "星辰核桃木",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S3303-ST12.jpg"
+    },
+    {
+        "id": "S5002SM",
+        "serial": "S5002-SM",
+        "name": "白色馬特拉",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S5002-SM.jpg"
+    },
+    {
+        "id": "S5003SM",
+        "serial": "S5003-SM",
+        "name": "灰色馬特拉",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S5003-SM.jpg"
+    },
+    {
+        "id": "S5004SM",
+        "serial": "S5004-SM",
+        "name": "黑色馬特拉",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/S5004-SM.jpg"
+    },
+    {
+        "id": "W5525SM",
+        "serial": "W5525-SM",
+        "name": "陶瓷白",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "木紋系列",
+        "img": "wood/W5525-SM.jpg"
+    },
+    {
+        "id": "G5527ST68",
+        "serial": "G5527-ST68",
+        "name": "極光白顆粒面",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "粉色系列",
+        "img": "pink/G5527-ST68.jpg"
+    },
+    {
+        "id": "G6505SM",
+        "serial": "G6505-SM",
+        "name": "石頭灰消光面",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "粉色系列",
+        "img": "pink/G6505-SM.jpg"
+    },
+    {
+        "id": "G6506SM",
+        "serial": "G6506-SM",
+        "name": "米灰消光面",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "粉色系列",
+        "img": "pink/G6506-SM.jpg"
+    },
+    {
+        "id": "G6507SM",
+        "serial": "G6507-SM",
+        "name": "鐵灰消光面",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "粉色系列",
+        "img": "pink/G6507-SM.jpg"
+    },
+    {
+        "id": "G6507ST68",
+        "serial": "G6507-ST68",
+        "name": "鐵灰顆粒面",
+        "type": "board",
+        "brand": "HorngChang",
+        "series": "粉色系列",
+        "img": "pink/G6507-ST68.jpg"
+    },
+    {
+        "id": "K1570SU",
+        "serial": "K1570-SU",
+        "name": "鑽石壓紋白",
+        "type": "board",
+        "brand": "Kaindl",
+        "series": "",
+        "img": "K1570-SU.jpg"
+    },
+    {
+        "id": "K5411RO",
+        "serial": "K5411-RO",
+        "name": "摩卡年輪",
+        "type": "board",
+        "brand": "Kaindl",
+        "series": "",
+        "img": "K5411-RO.jpg"
+    },
+    {
+        "id": "K37769SU",
+        "serial": "K37769-SU",
+        "name": "摩卡年輪",
+        "type": "board",
+        "brand": "Kaindl",
+        "series": "",
+        "img": "K37769-SU.jpg"
+    },
+    {
+        "id": "L3267H",
+        "serial": "L3267-H",
+        "name": "北美胡桃木",
+        "type": "board",
+        "brand": "LongLand",
+        "series": "",
+        "img": "L3267-H.jpg"
+    },
+    {
+        "id": "L3461H",
+        "serial": "L3461-H",
+        "name": "榆木洗白",
+        "type": "board",
+        "brand": "LongLand",
+        "series": "",
+        "img": "L3461-H.jpg"
+    },
+    {
+        "id": "L3491A",
+        "serial": "L3491-A",
+        "name": "楓香洗白",
+        "type": "board",
+        "brand": "LongLand",
+        "series": "",
+        "img": "L3491-A.jpg"
+    },
+    {
+        "id": "L3612H",
+        "serial": "L3612-H",
+        "name": "瑞士榆木",
+        "type": "board",
+        "brand": "LongLand",
+        "series": "",
+        "img": "L3612-H.jpg"
+    },
+    {
+        "id": "L3628L",
+        "serial": "L3628-L",
+        "name": "卡拉拉白",
+        "type": "board",
+        "brand": "LongLand",
+        "series": "",
+        "img": "L3628-L.jpg"
+    },
+    {
+        "id": "JM356T2",
+        "serial": "JM356-T2",
+        "name": "清水模",
+        "type": "board",
+        "brand": "JangMei",
+        "series": "",
+        "img": "JM356-T2.jpg"
+    },
+    {
+        "id": "JM396F",
+        "serial": "JM396-F",
+        "name": "銀狐",
+        "type": "board",
+        "brand": "JangMei",
+        "series": "",
+        "img": "JM396-F.jpg"
+    },
+    {
+        "id": "JM513T2",
+        "serial": "JM513-T2",
+        "name": "印象淺胡桃",
+        "type": "board",
+        "brand": "JangMei",
+        "series": "",
+        "img": "JM513-T2.jpg"
+    },
+    {
+        "id": "JM541S2",
+        "serial": "JM541-S2",
+        "name": "自然義橡",
+        "type": "board",
+        "brand": "JangMei",
+        "series": "",
+        "img": "JM541-S2.jpg"
+    },
+    {
+        "id": "JM545S2",
+        "serial": "JM545-S2",
+        "name": "傑克森山胡桃",
+        "type": "board",
+        "brand": "JangMei",
+        "series": "",
+        "img": "JM545-S2.jpg"
+    },
+    {
+        "id": "AM633",
+        "serial": "AM633",
+        "name": "玄武岩",
+        "type": "stone",
+        "brand": "SamsungRadianz",
+        "series": "",
+        "img": "AM633.jpg"
+    },
+    {
+        "id": "AG612",
+        "serial": "AG612",
+        "name": "冰河",
+        "type": "stone",
+        "brand": "SamsungRadianz",
+        "series": "",
+        "img": "AG612.jpg"
+    },
+    {
+        "id": "AP665",
+        "serial": "AP665",
+        "name": "池塘",
+        "type": "stone",
+        "brand": "SamsungRadianz",
+        "series": "",
+        "img": "AP665.jpg"
+    },
+    {
+        "id": "AA625",
+        "serial": "AA625",
+        "name": "赤楊",
+        "type": "stone",
+        "brand": "SamsungRadianz",
+        "series": "",
+        "img": "AA625.jpg"
+    },
+    {
+        "id": "AC629",
+        "serial": "AC629",
+        "name": "混凝土",
+        "type": "stone",
+        "brand": "SamsungRadianz",
+        "series": "",
+        "img": "AC629.jpg"
+    },
+    {
+        "id": "AS610",
+        "serial": "AS610",
+        "name": "雪山",
+        "type": "stone",
+        "brand": "SamsungRadianz",
+        "series": "",
+        "img": "AS610.jpg"
+    },
+    {
+        "id": "AS644",
+        "serial": "AS644",
+        "name": "麥穗",
+        "type": "stone",
+        "brand": "SamsungRadianz",
+        "series": "",
+        "img": "AS644.jpg"
+    },
+    {
+        "id": "AP640",
+        "serial": "AP640",
+        "name": "黑椒",
+        "type": "stone",
+        "brand": "SamsungRadianz",
+        "series": "",
+        "img": "AP640.jpg"
+    },
+    {
+        "id": "1141PureWhite",
+        "serial": "1141-Pure-White",
+        "name": "極品白",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "經典系列",
+        "img": "classic/1141-Pure-White.jpg"
+    },
+    {
+        "id": "2003Concrete",
+        "serial": "2003-Concrete",
+        "name": "鈦金灰",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "經典系列",
+        "img": "classic/2003-Concrete.jpg"
+    },
+    {
+        "id": "3100JetBlack",
+        "serial": "3100-Jet-Black",
+        "name": "極地黑",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "經典系列",
+        "img": "classic/3100-Jet-Black.jpg"
+    },
+    {
+        "id": "3141Ospray",
+        "serial": "3141-Ospray",
+        "name": "天鵝絨",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "經典系列",
+        "img": "classic/3141-Ospray.jpg"
+    },
+    {
+        "id": "4600OrganicWhite",
+        "serial": "4600-Organic-White",
+        "name": "棉白",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "經典系列",
+        "img": "classic/4600-Organic-White.jpg"
+    },
+    {
+        "id": "4330Ginger",
+        "serial": "4330-Ginger",
+        "name": "姜之夢",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "經典系列",
+        "img": "classic/4330-Ginger.jpg"
+    },
+    {
+        "id": "4011CloudburstConcrete",
+        "serial": "4011-Cloudburst-Concrete",
+        "name": "水星",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/4011-Cloudburst-Concrete.jpg"
+    },
+    {
+        "id": "4033RuggedConcrete",
+        "serial": "4033-Rugged-Concrete",
+        "name": "地表",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/4033-Rugged-Concrete.jpg"
+    },
+    {
+        "id": "4046Excava",
+        "serial": "4046-Excava",
+        "name": "熔岩",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/4046-Excava.jpg"
+    },
+    {
+        "id": "5003PiatraGrey",
+        "serial": "5003-Piatra-Grey",
+        "name": "比亞特灰",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/5003-Piatra-Grey.jpg"
+    },
+    {
+        "id": "5043Montblanc",
+        "serial": "5043-Montblanc",
+        "name": "萬寶龍",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/5043-Montblanc.jpg"
+    },
+    {
+        "id": "5100VanillaNoir",
+        "serial": "5100-Vanilla-Noir",
+        "name": "香草黑",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/5100-Vanilla-Noir.jpg"
+    },
+    {
+        "id": "5110AlpineMist",
+        "serial": "5110-Alpine-Mist",
+        "name": "雲霧",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/5110-Alpine-Mist.jpg"
+    },
+    {
+        "id": "5141FrostyCarrina",
+        "serial": "5141-Frosty-Carrina",
+        "name": "卡琳娜冰川",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/5141-Frosty-Carrina.jpg"
+    },
+    {
+        "id": "5220DreamyMarfil",
+        "serial": "5220-Dreamy-Marfil",
+        "name": "西班牙米黃",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/5220-Dreamy-Marfil.jpg"
+    },
+    {
+        "id": "6338Woodlands",
+        "serial": "6338-Woodlands",
+        "name": "林地",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/6338-Woodlands.jpg"
+    },
+    {
+        "id": "61331BiancoDrift",
+        "serial": "61331-Bianco-Drift",
+        "name": "晶沙灰",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "超自然系列",
+        "img": "supernatural/61331-Bianco-Drift.jpg"
+    },
+    {
+        "id": "2141CCrocodileWhite",
+        "serial": "2141C-Crocodile-White",
+        "name": "白鱷魚",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "雕花系列",
+        "img": "carved/2141C-Crocodile-White.jpg"
+    },
+    {
+        "id": "2141LLace",
+        "serial": "2141L-Lace",
+        "name": "白蕾絲",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "雕花系列",
+        "img": "carved/2141L-Lace.jpg"
+    },
+    {
+        "id": "3100CCrocodileBlack",
+        "serial": "3100C-Crocodile-Black",
+        "name": "黑鱷魚",
+        "type": "stone",
+        "brand": "CaesarStone",
+        "series": "雕花系列",
+        "img": "carved/3100C-Crocodile-Black.jpg"
+    },
+    {
+        "id": "EPL036",
+        "serial": "EPL036",
+        "name": "巴多利諾灰橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL036.jpg"
+    },
+    {
+        "id": "EPL089",
+        "serial": "EPL089",
+        "name": "哥柔夫橡木",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL089.jpg"
+    },
+    {
+        "id": "EPL098",
+        "serial": "EPL098",
+        "name": "北方金橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL098.jpg"
+    },
+    {
+        "id": "EPL137",
+        "serial": "EPL137",
+        "name": "艾爾頓白橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL137.jpg"
+    },
+    {
+        "id": "EPL0654V",
+        "serial": "EPL065 4V",
+        "name": "蘭里淺胡桃木",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL0654V.jpg"
+    },
+    {
+        "id": "EPL1004V",
+        "serial": "EPL100 4V",
+        "name": "北方干邑棕橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL1004V.jpg"
+    },
+    {
+        "id": "EPL1474V",
+        "serial": "EPL147 4V",
+        "name": "島嶼深橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL1474V.jpg"
+    },
+    {
+        "id": "EPL1544V",
+        "serial": "EPL154 4V",
+        "name": "阿斯吉淺橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL1544V.jpg"
+    },
+    {
+        "id": "EPL008",
+        "serial": "EPL008",
+        "name": "塔拉戈納石紋",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL008.jpg"
+    },
+    {
+        "id": "EPL034",
+        "serial": "EPL034",
+        "name": "義大利山地白橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL034.jpg"
+    },
+    {
+        "id": "EPL056",
+        "serial": "EPL056",
+        "name": "阿德明頓深橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL056.jpg"
+    },
+    {
+        "id": "EPL066",
+        "serial": "EPL066",
+        "name": "蘭里紅胡桃木",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL066.jpg"
+    },
+    {
+        "id": "EPL099",
+        "serial": "EPL099",
+        "name": "北方自然原橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL099.jpg"
+    },
+    {
+        "id": "EPL102",
+        "serial": "EPL102",
+        "name": "阿敏斯淺橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL102.jpg"
+    },
+    {
+        "id": "EPL011",
+        "serial": "EPL011",
+        "name": "瑞靈頓淺橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL011.jpg"
+    },
+    {
+        "id": "EPL012",
+        "serial": "EPL012",
+        "name": "瑞靈頓深橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL012.jpg"
+    },
+    {
+        "id": "EPL060",
+        "serial": "EPL060",
+        "name": "貝爾頓深橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL060.jpg"
+    },
+    {
+        "id": "EPL103",
+        "serial": "EPL103",
+        "name": "漢彌爾頓橡木(2V)",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL103.jpg"
+    },
+    {
+        "id": "EPL104",
+        "serial": "EPL104",
+        "name": "漢彌爾頓深橡(2V)",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL104.jpg"
+    },
+    {
+        "id": "EPL107",
+        "serial": "EPL107",
+        "name": "漢彌爾頓奶油橡木(2V)",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL107.jpg"
+    },
+    {
+        "id": "EPL009",
+        "serial": "EPL009",
+        "name": "特爾福德淺橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL009.jpg"
+    },
+    {
+        "id": "EPL010",
+        "serial": "EPL010",
+        "name": "特爾福德深橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL010.jpg"
+    },
+    {
+        "id": "EPL0514V",
+        "serial": "EPL051 4V",
+        "name": "哥頓白橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL0514V.jpg"
+    },
+    {
+        "id": "EPL0744V",
+        "serial": "EPL074 4V",
+        "name": "鄧寧頓淺橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL0744V.jpg"
+    },
+    {
+        "id": "EPL0754V",
+        "serial": "EPL075 4V",
+        "name": "鄧寧頓深橡",
+        "type": "floor",
+        "brand": "Egger",
+        "series": "",
+        "img": "EPL0754V.jpg"
+    },
+    {
+        "id": "D3043",
+        "serial": "D3043",
+        "name": "可達淺橡木",
+        "type": "floor",
+        "brand": "SwissKrono",
+        "series": "",
+        "img": "D3043.jpg"
+    },
+    {
+        "id": "D3782",
+        "serial": "D3782",
+        "name": "阿思康橡木",
+        "type": "floor",
+        "brand": "SwissKrono",
+        "series": "",
+        "img": "D3782.jpg"
+    },
+    {
+        "id": "D3784",
+        "serial": "D3784",
+        "name": "勞倫橡木",
+        "type": "floor",
+        "brand": "SwissKrono",
+        "series": "",
+        "img": "D3784.jpg"
+    },
+    {
+        "id": "D4932",
+        "serial": "D4932",
+        "name": "天然灰橡木",
+        "type": "floor",
+        "brand": "SwissKrono",
+        "series": "",
+        "img": "D4932.jpg"
+    },
+    {
+        "id": "D4941",
+        "serial": "D4941",
+        "name": "極地有結松",
+        "type": "floor",
+        "brand": "SwissKrono",
+        "series": "",
+        "img": "D4941.jpg"
+    },
+    {
+        "id": "D8011",
+        "serial": "D8011",
+        "name": "史翠堡橡木",
+        "type": "floor",
+        "brand": "SwissKrono",
+        "series": "",
+        "img": "D8011.jpg"
+    },
+    {
+        "id": "D8013",
+        "serial": "D8013",
+        "name": "赫爾辛基橡木",
+        "type": "floor",
+        "brand": "SwissKrono",
+        "series": "",
+        "img": "D8013.jpg"
+    },
+    {
+        "id": "D8014",
+        "serial": "D8014",
+        "name": "紐約深灰橡木",
+        "type": "floor",
+        "brand": "SwissKrono",
+        "series": "",
+        "img": "D8014.jpg"
+    },
+    {
+        "id": "hardware1",
+        "serial": "",
+        "name": "KD圓盤",
+        "type": "hardware",
+        "brand": "titus",
+        "series": "",
+        "img": "01.png"
+    },
+    {
+        "id": "hardware2",
+        "serial": "",
+        "name": "KD螺絲",
+        "type": "hardware",
+        "brand": "titus",
+        "series": "",
+        "img": "02.png"
+    },
+    {
+        "id": "hardware3",
+        "serial": "",
+        "name": "固隔螺絲",
+        "type": "hardware",
+        "brand": "titus",
+        "series": "",
+        "img": "03.png"
+    },
+    {
+        "id": "hardware4",
+        "serial": "",
+        "name": "固隔器",
+        "type": "hardware",
+        "brand": "titus",
+        "series": "",
+        "img": "04.png"
+    }
+]
