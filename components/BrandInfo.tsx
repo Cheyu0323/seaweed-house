@@ -12,7 +12,7 @@ const BrandInfo: React.FC<BrandInfoProp> = ({ data }) => {
             ) : (
                 <div className=" bg-lightgary py-4 px-3 md:py-7 md:px-8 w-full rounded-lg">
                     <div className="flex justify-between items-center mb-3 relative">
-                        <div className=" font-semibold tracking-widest md:text-lg">
+                        <div className=" font-semibold tracking-widest md:text-lg text-black">
                             {data.name}
                         </div>
                         <div className="w-20 md:w-28 lg:absolute md:right-0 md:top-0">
