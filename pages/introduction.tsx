@@ -501,7 +501,7 @@ const Introduction: React.FC = () => {
             </section>
             <section
                 id="warranty"
-                className="relative mb-8 px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center max-w-screen-xl m-auto bg-white"
+                className="relative pb-8 px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center max-w-screen-xl m-auto bg-white"
             >
                 <Title left={true} my={true}>
                     保固說明
