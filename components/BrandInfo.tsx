@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { websiteUrl } from "../websiteUrl";
 
 type BrandInfoProp = {
     data: { id: string; name: string; info: string; img: string };
@@ -17,7 +18,7 @@ const BrandInfo: React.FC<BrandInfoProp> = ({ data }) => {
                         <div className="w-20 md:w-28 lg:absolute md:right-0 md:top-0">
                             <Image
                                 className=" object-contain object-center md:object-right-top w-full h-10 lg:h-20"
-                                src={`/barand/${data.img}`}
+                                src={`barand/${data.img}`}
                                 alt={data.name}
                                 width="0"
                                 height="0"
