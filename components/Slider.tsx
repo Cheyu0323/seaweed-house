@@ -46,17 +46,15 @@ const Slider = () => {
                     d="M15.75 19.5L8.25 12l7.5-7.5"
                 />
             </svg>
-            {caselist.map((item, index) => {
+            {caselist.slice(0, 7).map((item, index) => {
                 return (
                     <Image
                         key={item.id}
-                        className={`object-cover transition-opacity ease-in-out duration-700 w-full h-full ${
+                        className={` object-cover transition-opacity ease-in-out duration-700 w-full h-full ${
                             index === nowIndex ? "opacity-1" : "opacity-0"
                         } `}
                         src={`${websiteUrl}/case/${item.id}/${item.img[0].name}`}
                         alt={item.img[0].title}
-                        placeholder="blur"
-                        blurDataURL={`${item.img[0].title}`}
                         fill
                     />
                 );
