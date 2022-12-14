@@ -64,7 +64,8 @@ const Item: React.FC<ItemProp> = ({ item }) => {
                 className="object-cover scale-110 duration-200 group-hover:scale-125 w-full h-auto"
                 src={`${websiteUrl}/case/${item.id}/${item.img[0].name}`}
                 alt={item.img[0].title}
-                fill
+                width="0"
+                height="0"
                 sizes="100vw"
                 placeholder="blur"
                 blurDataURL={`${item.img[0].blurURL}`}
@@ -372,7 +373,8 @@ const Home: React.FC = () => {
                             className="object-cover w-11/12 h-auto"
                             src={`${websiteUrl}/case/case11/01.webp`}
                             alt="實際案例照片"
-                            fill
+                            width="0"
+                            height="0"
                             sizes="100vw"
                             loader={customLoader}
                         />
