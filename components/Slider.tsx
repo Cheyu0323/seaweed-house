@@ -58,6 +58,8 @@ const Slider = () => {
                         alt={item.img[0].title}
                         fill
                         loader={customLoader}
+                        placeholder="blur"
+                        blurDataURL={`${websiteUrl}/case/${item.id}/${item.img[0].blurURL}`}
                     />
                 );
             })}
