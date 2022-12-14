@@ -13,6 +13,7 @@ const Footer: React.FC = () => {
                     width={115}
                     height={38}
                     loader={customLoader}
+                    priority
                 />
             </div>
             <span className="mt-2 text-sm text-secondary tracking-wider">opyright@2022 Create by 海草家居</span>

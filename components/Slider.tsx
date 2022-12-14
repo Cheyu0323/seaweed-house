@@ -59,7 +59,7 @@ const Slider = () => {
                         fill
                         loader={customLoader}
                         placeholder="blur"
-                        blurDataURL={`${websiteUrl}/case/${item.id}/${item.img[0].blurURL}`}
+                        blurDataURL={`${item.img[0].blurURL}`}
                     />
                 );
             })}
