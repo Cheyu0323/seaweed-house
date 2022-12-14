@@ -5,10 +5,10 @@ import Title from "../components/Title";
 import FliterIcon from "../components/FliterIcon";
 import BrandInfo from "../components/BrandInfo";
 import NumberCount from "../components/NumberCount";
-import { websiteUrl } from "../websiteUrl";
 import materials from "../data/materials.json";
 import brand from "../data/brand.json";
-import React, { useState, useEffect, use } from "react";
+import customLoader from "../ts/customLoader"
+import React, { useState, useEffect } from "react";
 
 type TextureItemProp = {
     imagePath: string;
@@ -24,6 +24,7 @@ const TextureItem: React.FC<TextureItemProp> = ({ imagePath, title }) => {
                 width="0"
                 height="0"
                 sizes="100vw"
+                loader={customLoader}
             />
             <span className=" text-xs md:text-sm text-primary absolute bg-white bottom-0 w-full h-8 text-center leading-8">
                 {title}
@@ -214,7 +215,7 @@ const Introduction: React.FC = () => {
                     name="description"
                     content="海草家居 | 系統櫃 | 板材 | 統包"
                 />
-                <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
+                <link rel="icon" href={`seawead.ico`} />
             </Head>
             <div className="pt-28 pb-4 px-8 sm:pt-16 flex flex-col items-center justify-center bg-white">
                 <Title>五星建材</Title>

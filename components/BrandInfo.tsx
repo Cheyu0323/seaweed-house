@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { websiteUrl } from "../websiteUrl";
+import customLoader from "../ts/customLoader"
 
 type BrandInfoProp = {
     data: { id: string; name: string; info: string; img: string };
@@ -20,9 +20,8 @@ const BrandInfo: React.FC<BrandInfoProp> = ({ data }) => {
                                 className=" object-contain object-center md:object-right-top w-full h-10 lg:h-20"
                                 src={`barand/${data.img}`}
                                 alt={data.name}
-                                width="0"
-                                height="0"
-                                sizes="100vw"
+                                width="112"
+                                loader={customLoader}
                             />
                         </div>
                     </div>

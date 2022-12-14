@@ -2,9 +2,9 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import Image from "next/image";
 import Title from "../../components/Title";
-import filterData from "../../filterData";
+import filterData from "../../ts/filterData";
 import caselist from "../../data/case.json";
-import { websiteUrl } from "../../websiteUrl";
+import customLoader from "../../ts/customLoader";
 
 type ClickProp = {
     handleClick: () => void;
@@ -63,7 +63,7 @@ const Project: React.FC = () => {
                     name="description"
                     content="海草家居 | 系統櫃 | 板材 | 統包"
                 />
-                <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
+                <link rel="icon" href={`seawead.ico`} />
             </Head>
             <div className="relative pt-28 pb-4 px-4 sm:pt-16 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center max-w-screen-xl m-auto  bg-white">
                 <Title left={true}>{filterDataList.name}</Title>
@@ -124,11 +124,12 @@ const Project: React.FC = () => {
                         <Image
                             key={`${filterDataList.id}-${item.id}`}
                             className="object-cover mb-2 w-full h-auto"
-                            src={`${websiteUrl}/case/${filterDataList.id}/${item.name}`}
+                            src={`case/${filterDataList.id}/${item.name}`}
                             alt={item.title}
                             width="0"
                             height="0"
                             sizes="100vw"
+                            loader={customLoader}
                             placeholder="blur"
                             blurDataURL={`${item.blurURL}`}
                         />

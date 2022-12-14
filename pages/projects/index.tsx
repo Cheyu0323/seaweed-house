@@ -3,9 +3,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Title from "../../components/Title";
 import caselist from "../../data/case.json";
-import filterData from "../../filterData";
+import filterData from "../../ts/filterData";
 import React, { useState, useRef, useEffect, ChangeEvent } from "react";
-import { websiteUrl } from "../../websiteUrl";
+import customLoader from "../../ts/customLoader";
 import gsap from "gsap";
 import FliterIcon from "../../components/FliterIcon";
 
@@ -80,8 +80,9 @@ const SwitchItem: React.FC = () => {
             >
                 <Image
                     className="object-cover w-full h-auto"
-                    src={`${websiteUrl}/case/${caselist[nowIndex].id}/${caselist[nowIndex].img[0].name}`}
+                    src={`case/${caselist[nowIndex].id}/${caselist[nowIndex].img[0].name}`}
                     alt={caselist[nowIndex].img[0].title}
+                    loader={customLoader}
                     width="0"
                     height="0"
                     sizes="100vw"
@@ -192,8 +193,9 @@ const Item: React.FC<ItemProp> = ({ item }) => {
                 </button>
                 <Image
                     className="object-cover w-full h-auto duration-200 group-hover:scale-125"
-                    src={`${websiteUrl}/case/${item.id}/${item.img[0].name}`}
+                    src={`case/${item.id}/${item.img[0].name}`}
                     alt={item.img[0].title}
+                    loader={customLoader}
                     width="0"
                     height="0"
                     sizes="100vw"
@@ -255,7 +257,7 @@ const Projects: React.FC = () => {
                     name="description"
                     content="海草家居 | 系統櫃 | 板材 | 統包"
                 />
-                <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
+                <link rel="icon" href={`seawead.ico`} />
             </Head>
             <div className="pt-28 pb-4 px-8 sm:pt-16 flex flex-col items-center justify-center bg-white">
                 <Title>實際案例</Title>

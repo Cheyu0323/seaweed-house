@@ -1,4 +1,4 @@
-import caselist from "./data/case.json";
+import caselist from "../data/case.json";
 
 type CaseList = {
     id: string;
