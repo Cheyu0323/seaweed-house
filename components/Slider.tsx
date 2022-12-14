@@ -2,6 +2,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import customLoader from "../ts/customLoader"
 import caselist from "../data/case.json";
+import websiteUrl from "../ts/websiteUrl";
 
 const Slider = () => {
     const [nowIndex, setNowIndex] = useState<number>(0);
@@ -53,7 +54,7 @@ const Slider = () => {
                         className={` object-cover transition-opacity ease-in-out duration-700 w-full h-full ${
                             index === nowIndex ? "opacity-1" : "opacity-0"
                         } `}
-                        src={`case/${item.id}/${item.img[0].name}`}
+                        src={`${websiteUrl}/case/${item.id}/${item.img[0].name}`}
                         alt={item.img[0].title}
                         fill
                         loader={customLoader}
