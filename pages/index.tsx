@@ -371,7 +371,7 @@ const Home: React.FC = () => {
                     <div className="relative w-full sm:w-2/3  h-auto">
                         <Image
                             className="object-cover w-11/12 h-auto"
-                            src={`${websiteUrl}/case/case11/01.webp`}
+                            src={`${websiteUrl}/case/case8/01.webp`}
                             alt="實際案例照片"
                             width="0"
                             height="0"
