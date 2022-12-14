@@ -5,6 +5,7 @@ import Title from "../../components/Title";
 import filterData from "../../ts/filterData";
 import caselist from "../../data/case.json";
 import customLoader from "../../ts/customLoader";
+import websiteUrl from "../../ts/websiteUrl";
 
 type ClickProp = {
     handleClick: () => void;
@@ -63,7 +64,7 @@ const Project: React.FC = () => {
                     name="description"
                     content="海草家居 | 系統櫃 | 板材 | 統包"
                 />
-                <link rel="icon" href={`seawead.ico`} />
+                <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
             <div className="relative pt-28 pb-4 px-4 sm:pt-16 sm:px-4 md:px-3 lg:px-2 flex flex-col items-start justify-center max-w-screen-xl m-auto  bg-white">
                 <Title left={true}>{filterDataList.name}</Title>
@@ -124,7 +125,7 @@ const Project: React.FC = () => {
                         <Image
                             key={`${filterDataList.id}-${item.id}`}
                             className="object-cover mb-2 w-full h-auto"
-                            src={`case/${filterDataList.id}/${item.name}`}
+                            src={`${websiteUrl}/case/${filterDataList.id}/${item.name}`}
                             alt={item.title}
                             width="0"
                             height="0"

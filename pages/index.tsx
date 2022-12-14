@@ -5,6 +5,7 @@ import Slider from "../components/Slider";
 import Title from "../components/Title";
 import caselist from "../data/case.json";
 import filterData from "../ts/filterData";
+import websiteUrl from "../ts/websiteUrl";
 import customLoader from "../ts/customLoader"
 import gsap from "gsap";
 import { useState, useEffect, useRef } from "react";
@@ -61,7 +62,7 @@ const Item: React.FC<ItemProp> = ({ item }) => {
             </div>
             <Image
                 className="object-cover scale-110 duration-200 group-hover:scale-125 w-full h-auto"
-                src={`case/${item.id}/${item.img[0].name}`}
+                src={`${websiteUrl}/case/${item.id}/${item.img[0].name}`}
                 alt={item.img[0].title}
                 width="0"
                 height="0"
@@ -101,7 +102,7 @@ const Home: React.FC = () => {
                     name="description"
                     content="海草家居 | 系統櫃 | 板材 | 統包"
                 />
-                <link rel="icon" href={`seawead.ico`} />
+                <link rel="icon" href={`${websiteUrl}/seawead.ico`} />
             </Head>
             <Slider />
             <section
@@ -111,7 +112,7 @@ const Home: React.FC = () => {
                 <Title>關於海草</Title>
                 <div className="w-20 sm:w-24 my-5">
                     <Image
-                        src={`seawead.png`}
+                        src={`${websiteUrl}/seawead.png`}
                         alt="海草家居 Logo"
                         width={154}
                         height={51}
@@ -370,7 +371,7 @@ const Home: React.FC = () => {
                     <div className="relative w-full sm:w-2/3  h-auto">
                         <Image
                             className="object-cover w-11/12 h-auto"
-                            src={`case/case11/01.jpg`}
+                            src={`${websiteUrl}/case/case11/01.jpg`}
                             alt="實際案例照片"
                             width="0"
                             height="0"
